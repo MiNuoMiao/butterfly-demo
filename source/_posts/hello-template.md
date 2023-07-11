@@ -1,8 +1,8 @@
 ---
-title: Hexo Template
+title: MIAO MIAO
 ---
 
-> A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org). Here is the template of it.
+<!-- > A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org). Here is the template of it.
 
 [Demo](https://mmdjiji.github.io/hexo-template) | [Official Website](https://hexo.io) | [Documentation](https://hexo.io/docs/) | [GitHub](https://github.com/mmdjiji/hexo-template)
 
@@ -86,4 +86,4 @@ $ hexo generate
 
 Follows [hexojs/hexo](https://github.com/hexojs/hexo) , use [MIT License](LICENSE).
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhexojs%2Fhexo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhexojs%2Fhexo?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhexojs%2Fhexo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhexojs%2Fhexo?ref=badge_large) -->

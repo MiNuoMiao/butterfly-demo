@@ -40,7 +40,7 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/miao.png
+favicon: /img/miao.ico
 
 # Avatar (頭像)
 avatar:
@@ -751,7 +751,9 @@ subtitle:
   # Typewriter Effect (打字效果)
   effect: true
   # 打字速度
-  typeSpeed: 200
+  typeSpeed: 50000
+  # 打字前时间(毫秒)
+  startDelay: 50000
   # loop (循環打字)
   loop: true
   typed_option:
