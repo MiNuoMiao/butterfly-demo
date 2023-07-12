@@ -208,8 +208,8 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: Hi, welcome to my blog!!!
-  copyright: false # Copyright of theme and framework
+  custom_text: ''
+  copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
 # --------------------------------------
@@ -930,7 +930,9 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+  - <script src="/js/jquery.js"></script> # jQuery
   - <script src="/js/sakura.js"></script> # 樱花特效
+  - <script src="/js/foot.js"></script> # 页脚文字
   # 波浪特效
   - <div id="hans-bolang"></div>
   - <script src="https://api.vvhan.com/api/bolang"></script>
@@ -948,7 +950,7 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: cdnjs
+  third_party_provider: jsdelivr
 
   # Add version number to url, true or false
   version: false
