@@ -930,10 +930,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-  # 水花特效 data-pjax 为开关,删掉则关
-  - <script defer src="https://rmt.dogedoge.com/fetch/~/source/jsdelivr/npm/jquery@latest/dist/jquery.min.js"></script>
-  - <script defer data-pjax src="https://cdn.jsdelivr.net/gh/sirxemic/jquery.ripples/dist/jquery.ripples.js"></script>
-  - <script defer data-pjax src="/js/ripples.js"></script>
+  - <script src="/js/sakura.js"></script> # 樱花特效
   # 波浪特效
   - <div id="hans-bolang"></div>
   - <script src="https://api.vvhan.com/api/bolang"></script>
