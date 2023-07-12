@@ -1,6 +1,6 @@
 // 动态心跳，更改自己的名称
 $(document).ready(function (e) {
-  $('.copyright').html('©2023 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By 诺喵')
+  $('.copyright').html('<p style="color: #A7B5E9;">©2023 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By 诺喵</p>')
 })
 
 $(document).ready(function (e) {
@@ -9,7 +9,7 @@ $(document).ready(function (e) {
 
 //本站运行时间，更改自己建立站点的时间
 function show_date_time () {
-  $('.framework-info').html('小破站已破壳 <span id="span_dt_dt" style="color: #A7B5E9;"></span>')
+  $('.framework-info').html('<p style="color: #A7B5E9;">小破站已破壳 <span id="span_dt_dt" style="color: #A7B5E9;"></span></p>')
   window.setTimeout("show_date_time()", 1000)
   BirthDay = new Date("2023/07/10 0:0:0")
   today = new Date()
