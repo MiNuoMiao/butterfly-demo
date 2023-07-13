@@ -931,11 +931,16 @@ inject:
   head:
   # 鼠标样式
   - <link rel="stylesheet" href="/css/mouse.css">
+  # 侧边栏背景
+  - <link rel="stylesheet" href="/css/myStyle.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
   - <script src="/js/jquery.js"></script> # jQuery
   - <script src="/js/sakura.js"></script> # 樱花特效
   - <script src="/js/foot.js"></script> # 页脚文字
+  # 页脚养鱼
+  - <div class="container" id="jsi-flying-fish-container"></div>
+  - <script src="https://cdn.jsdelivr.net/gh/xiabo2/CDN@latest/fish.js"></script>
   # 波浪特效
   - <div id="hans-bolang"></div>
   - <script src="https://api.vvhan.com/api/bolang"></script>
