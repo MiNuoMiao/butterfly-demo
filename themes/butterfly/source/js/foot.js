@@ -1,6 +1,6 @@
 // 动态心跳，更改自己的名称
 $(document).ready(function (e) {
-  $('.copyright').html('<p style="color: #A7B5E9;">©2023 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By 诺喵</p>')
+  $('.copyright').html('<p style="color: #A7B5E9;">©2023 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer heartbeat"></i> By 诺喵</p>')
 })
 
 $(document).ready(function (e) {

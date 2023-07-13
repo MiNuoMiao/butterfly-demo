@@ -9,7 +9,8 @@ nav:
 
 # Menu 目錄
 menu:
-  # Home: / || fas fa-home
+  Home: / || fas fa-home
+  追番: /bangumis/index.html || fas fa-folder-open
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
@@ -32,7 +33,11 @@ code_word_wrap: false
 # Social Settings (社交圖標設置)
 # formal:
 #   icon: link || the description || color
+# 侧边栏下面图标
 social:
+  fab fa-github: https://github.com/MiNuoMiao || Github || 'white'
+  fas fa-book: https://www.jianshu.com/u/23ce95364552 || 简书 || 'white'
+  fas fa-play-circle: https://www.bilibili.com/ || Bilibili || 'white'
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
@@ -278,7 +283,7 @@ runtimeshow:
   enable: false
   publish_date:
 
-# Aside widget - Newest Comments
+# Aside widget - Newest Comments  最新评论
 newest_comments:
   enable: false
   sort_order: # Don't modify the setting unless you know how it works
@@ -864,9 +869,9 @@ pjax:
     # - xxxx
     # - xxxx
 
-# Inject the css and script (aplayer/meting)
+# Inject the css and script (aplayer/meting) 音乐
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -931,20 +936,23 @@ inject:
   head:
   # 鼠标样式
   - <link rel="stylesheet" href="/css/mouse.css">
-  # 侧边栏背景
+  # 修改的样式
+  - <link rel="stylesheet" href="/css/anzhiyu.css">
+  # 自己的样式
   - <link rel="stylesheet" href="/css/myStyle.css">
-    # - <link rel="stylesheet" href="/xxx.css">
+  # - <link rel="stylesheet" href="/xxx.css">
   bottom:
   - <script src="/js/jquery.js"></script> # jQuery
   - <script src="/js/sakura.js"></script> # 樱花特效
   - <script src="/js/foot.js"></script> # 页脚文字
   # 页脚养鱼
-  - <div class="container" id="jsi-flying-fish-container"></div>
-  - <script src="https://cdn.jsdelivr.net/gh/xiabo2/CDN@latest/fish.js"></script>
-  # 波浪特效
-  - <div id="hans-bolang"></div>
-  - <script src="https://api.vvhan.com/api/bolang"></script>
-
+  # - <div class="container" id="jsi-flying-fish-container"></div>
+  # - <script src="https://cdn.jsdelivr.net/gh/xiabo2/CDN@latest/fish.js"></script>
+  # 页底波浪特效
+  # - <div id="hans-bolang"></div>
+  # - <script src="https://api.vvhan.com/api/bolang"></script>
+  # aplayer音乐
+  - <div id="nav-music"><div class="aplayer no-destroy" data-id="2284832697" data-server="tencent" data-type="playlist"   data-order="list" data-fixed="true" data-preload="auto" data-autoplay="false" data-mutex="true" ></div></div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -1014,8 +1022,14 @@ CDN:
     # fontawesome:
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
+
+
+    # aplayer
+    aplayer_css: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css
+    aplayer_js: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js
+    meting_js: https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
+
+
     # meting_js:
     # prismjs_js:
     # prismjs_lineNumber_js:
