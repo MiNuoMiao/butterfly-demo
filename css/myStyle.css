@@ -1,0 +1,83 @@
+/*文章的整体背景，渐变色设置*/
+#web_bg {
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  /* #background: #FFEFBA; */
+  /* fallback for old browsers */
+  /* #background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* #background: linear-gradient(to right, #FFFFFF, #FFEFBA); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #2BC0E4; */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #EAECC6, #2BC0E4); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* 主页所有文章页面背景 */
+#aside_content .card-widget,
+#recent-posts>.recent-post-item,
+.layout_page>div:first-child:not(.recent-posts),
+.layout_post>#page,
+.layout_post>#post,
+.read-mode .layout_post>#post {
+  /* 以下代表透明度为0.5 */
+  background: rgba(255, 255, 255, .5);
+}
+
+/*侧边栏页面*/
+/*白天主题下的配置*/
+#aside-content>.card-widget.card-info {
+  /*换成自己图片的地址*/
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-position: center;
+  background-size: cover;
+}
+
+#aside-content>.card-widget.card-info,
+#aside-content>.card-widget.card-info a>div {
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  text-shadow: 0 1px 1px #eee;
+}
+
+#aside-content>.card-widget.card-info a:hover div {
+  color: #ff98a2 !important;
+  text-shadow: 0 1px 1px #ffc6cc;
+}
+
+/* 按钮 */
+#aside-content>.card-widget.card-info #card-info-btn {
+  background: #fab3ba;
+}
+
+#aside-content>.card-widget.card-info #card-info-btn:hover {
+  background: #ff98a2;
+}
+
+/*黑暗主题下的配置*/
+[data-theme=dark] #aside-content>.card-widget.card-info {
+  /*换成自己图片的地址*/
+  background-image: url('../img/bg.jpeg') !important
+}
+
+/*文章页面*/
+.layout>#post {
+  background: rgba(255, 255, 255, .6);
+}
+
+/*分类页面*/
+.layout>#page {
+
+  background: rgba(255, 255, 255, .6);
+}
+
+/*时间轴页面*/
+.layout>#archive {
+  background: rgba(255, 255, 255, .6);
+}
